@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(131, 132, 223);
+}
+
+.App{
+  position: absolute;
+  bottom: 0;
+  width: 95%;
+  text-align: center;
+  font-size: 12px;
+  color: black;
+}
+.color-picker {
+  width: 700px;
+  margin: 0 auto;
+  border: 4px solid black;
+  padding: 10px;
+  text-align: center;
+  margin-top: 400px;
+  
+}
+
+.color-list {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.color-item {
+  width: 30px;
+  height: 30px;
+  border: 3px solid black;
+  cursor: pointer;
+}
+
+.color-preview {
+  width: 700%;
+  height: 200px;
+  border: 1px solid black;
+  padding: 40px;
+  font-size: 20px;
+  background-color: color;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+
+.violet {
+  background-color: violet;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.orangered {
+  background-color: orangered;
+}
+
+.darkgreen {
+  background-color: darkgreen;
+}
